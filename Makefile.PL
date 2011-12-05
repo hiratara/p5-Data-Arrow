@@ -3,6 +3,7 @@ name 'Data-Arrow';
 all_from 'lib/Data/Arrow.pm';
 
 # requires '';
+recommends 'Data::Monad';
 
 tests 't/*.t';
 author_tests 'xt';
